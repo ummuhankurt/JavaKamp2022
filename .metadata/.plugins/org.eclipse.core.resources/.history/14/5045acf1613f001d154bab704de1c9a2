@@ -1,0 +1,21 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 7;
+		boolean asalMi = false;
+		for(int i=2; i<=number;i++) {
+			if(number % i == 0) {
+				asalMi = true;
+			}
+		}
+		if(asalMi) {
+			System.out.println("Sayi asaldir");
+		}else {
+			System.out.println("Sayi asal değil");
+		}
+
+	}
+
+}

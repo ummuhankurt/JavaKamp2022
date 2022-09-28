@@ -1,0 +1,13 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'A';
+		String[] sesliHarfler = new String[] {"a","e","ı","i","o","ö","u","ü"};
+		for (int i = 0; i < sesliHarfler.length; i++) {
+			System.out.println(sesliHarfler[i].charAt(harf));
+		}
+	}
+
+}
